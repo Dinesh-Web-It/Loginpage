@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poopins", sans-serif;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pexels-cátia-matos-1072179.jpg);
+}
+.btn{
+    width: 420px;
+    height: 100%;
+    background-color: rgb(128, 128, 128,.9) ;
+    color: whitesmoke;
+    border-radius: 40px;
+}
+.btn h1{
+    font-size: 36px;
+    text-align: center;
+}
+.btn .inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+
+}
+.inputbox input{
+    padding: 20px;
+    width: 85%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255,.5);
+    border-radius: 40px;
+    color: #fff;
+    
+}
+.inputbox input::placeholder{
+    color:#fff;
+    position: absolute;
+    left: 20px;
+    
+}
+.inputbox i{
+    position: absolute;
+    right: px;
+    top: 16px;
+}
+p{
+    position: relative;
+    border: 2px solid rgb(213, 212, 208);
+    background-color: rgb(192, 189, 182);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    left: 331px;
+    top: -20px;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    padding: 9px;
+    box-shadow: 4px 4px 20px;
+}
+.c{ 
+    padding: 20px;
+    width: 85%;
+    height: 50%;
+    margin-left: 50px;
+    
+}
+a{
+    display: inline;
+}
+#F{
+    position: relative;
+    left: 250px;
+    bottom: 37px;
+}
+.submit{
+    overflow: hidden;
+    padding: 10px;
+    
+}
+
+.submit button{
+    position: relative;
+    left: 180px;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 100%, 0.5);
+    background: transparent;
+    border-radius: 15px;
+    color: #fff;
+    border-color: aliceblue;
+    background-color: rgba(0, 0%, 100%, 0.5);
+    transition: scale 400ms;
+}
+.submit:hover button{
+    scale: 120%;
+}
+h1{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    top: 10px;
+}
+.submit button:hover{
+    color: whitesmoke;
+    
+}
+.c{
+     accent-color: green;
+}
+
+p a:focus{
+    color: rgb(62, 230, 0);
+}
+
+.inputbox input::placeholder::before{
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+.inputbox input::placeholder::after{
+    cursor: pointer;
+    transform: rotate(180deg);
+    width: auto;
+    bottom: 20px;
+}
